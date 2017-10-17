@@ -1,4 +1,4 @@
-package de.akull.pdf;
+package de.akull.fopdf;
 
 import generated.Employee;
 import generated.ObjectFactory;
@@ -50,7 +50,7 @@ public class Main {
 
             System.out.println(rb.getFo());
 
-            rb.toPDF(new FileOutputStream("report.pdf"));
+            rb.toPDF(new FileOutputStream("report.fopdf"));
         }
         catch (DatatypeConfigurationException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);

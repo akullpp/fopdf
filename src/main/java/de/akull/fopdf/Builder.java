@@ -1,4 +1,4 @@
-package de.akull.pdf;
+package de.akull.fopdf;
 
 import java.io.InputStream;
 import java.io.OutputStream;

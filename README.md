@@ -1,6 +1,5 @@
-PDFTutorial
-===========
+# fopdf
 
-Tutorial code for generating PDFs with Apache FOP from scratch.
+[Tutorial](https://akullpp.com/pdfs-with-apache-fop) code for generating PDFs with Apache FOP from scratch.
 
-https://akullpp.com/pdfs-with-apache-fop
+Run `mvn clean install` first to generate the classes.
